@@ -38,7 +38,7 @@ rnd = ''.join(random.choices(string.ascii_lowercase +
 async def helpstr(message: types.Message):
     await message.answer_chat_action("typing")
     await message.reply(
-        "Hello how to use <code>/chk cc/mm/yy/cvv</code>\nREPO <a href='https://github.com/xbinner18/Mrbannker'>Here</a>"
+        "Hello how to use <code>/chk cc/mm/yy/cvv</code>\nDangerNetwork <a href='https://telegram.me/dangernetwork'>Here</a>"
     )
     
 
@@ -109,7 +109,7 @@ async def binio(message: types.Message):
 <b>BIN INFO</b>
 <code>{k.get_text()[62:]}</code>
 CheckedBy: <a href="tg://user?id={message.from_user.id}">{message.from_user.first_name}</a>
-<b>Bot:</b> @BinnerRoBoT
+<b>Bot:</b> @DN_cccheckerbot
 ╘═════════
 """
     await message.reply(INFO)
